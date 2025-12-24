@@ -1,0 +1,38 @@
+﻿{
+  "version": "2.0",
+  "extensions": {
+    "serviceBus": {
+      "prefetchCount": 150,
+      "messageHandlerOptions": {
+        "autoComplete": false
+      },
+      "batchOptions": {
+        "maxMessageCount": 100,
+        "autoComplete": false
+      }
+    }
+  },
+  "functionTimeout": "00:10:00",
+  "logging": {
+    "applicationInsights": {
+      "samplingSettings": {
+        "isEnabled": true,
+        "excludedTypes": "Request;Exception;Trace"
+      },
+      "enableLiveMetricsFilters": true
+    },
+    "console": {
+      "isEnabled": true,
+      "DisableColors": false
+    },
+    "logLevel": {
+      "default": "Information",
+      "Function": "Warning",
+      "Microsoft": "Error",
+      "Azure.Core": "Error",
+      "Azure.Messaging.ServiceBus": "Warning",
+      "DurableTask.AzureStorage": "Warning",
+      "DurableTask.Core": "Warning"
+    }
+  }
+}

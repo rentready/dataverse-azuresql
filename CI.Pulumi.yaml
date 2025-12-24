@@ -1,0 +1,7 @@
+name: dataverse-azuresql
+main: drop/infra
+description: One-way synchronization between Microsoft Dataverse and Azure SQL
+runtime:
+  name: dotnet
+  options:
+    binary: RR.DataverseAzureSql.Infra.dll

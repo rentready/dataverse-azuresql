@@ -1,0 +1,106 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 25.0.1706.5
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{396F7C1B-8FC5-4A90-9A45-5CC31079B2FD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "infra", "infra", "{7A447E49-C089-4073-9D83-5A7A58C84882}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{6B76163E-BE65-439B-B031-9EAE13EE11DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RR.DataverseAzureSql.Infra", "infra\RR.DataverseAzureSql.Infra\RR.DataverseAzureSql.Infra.csproj", "{D1ED3510-623E-440B-944E-1F127E1100C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RR.DataverseAzureSql.Infra.UnitTests", "infra\RR.DataverseAzureSql.Infra.UnitTests\RR.DataverseAzureSql.Infra.UnitTests.csproj", "{396228D5-F1DF-428C-AABF-50D2A9FD6338}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RR.DataverseAzureSql.OneTime.Functions", "src\RR.DataverseAzureSql.OneTime.Functions\RR.DataverseAzureSql.OneTime.Functions.csproj", "{F7BEC2B5-D27D-43D4-A5BD-3F0EE5517879}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RR.DataverseAzureSql.RealTime.Functions", "src\RR.DataverseAzureSql.RealTime.Functions\RR.DataverseAzureSql.RealTime.Functions.csproj", "{740E9C48-80FC-4468-88AF-2C86A906B646}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C0253F96-4928-47BB-86AD-273C7A8FE0A1}"
+	ProjectSection(SolutionItems) = preProject
+		Pulumi.dev.yaml = Pulumi.dev.yaml
+		Pulumi.prod.yaml = Pulumi.prod.yaml
+		Pulumi.sandbox.yaml = Pulumi.sandbox.yaml
+		Pulumi.yaml = Pulumi.yaml
+		CI.Pulumi.yaml = CI.Pulumi.yaml
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RR.DataverseAzureSql.Services", "src\RR.DataverseAzureSql.Services\RR.DataverseAzureSql.Services.csproj", "{3778B53B-71FD-421B-8A31-CFBFC8CB0906}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RR.DataverseAzureSql.Common", "src\RR.DataverseAzureSql.Common\RR.DataverseAzureSql.Common.csproj", "{07821124-4376-46BD-8C31-A79975360B75}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RR.DataverseAzureSql.Services.UnitTests", "test\RR.DataverseAzureSql.Services.UnitTests\RR.DataverseAzureSql.Services.UnitTests.csproj", "{DCFE302D-A715-4C08-AE2F-93C417BD8BAE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RR.DataverseAzureSql.Tests.Common", "test\RR.DataverseAzureSql.Tests.Common\RR.DataverseAzureSql.Tests.Common.csproj", "{6BF4B245-C863-44AD-95DA-6255F17D8A9C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RR.DataverseAzureSql.OneTime.Functions.UnitTests", "test\RR.DataverseAzureSql.OneTime.Functions.UnitTests\RR.DataverseAzureSql.OneTime.Functions.UnitTests.csproj", "{289FC50D-AF01-41DC-9A0E-87FA3F079E26}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RR.DataverseAzureSql.RealTime.Functions.UnitTests", "test\RR.DataverseAzureSql.RealTime.Functions.UnitTests\RR.DataverseAzureSql.RealTime.Functions.UnitTests.csproj", "{782A2080-473B-49EF-BC78-7269868951E3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D1ED3510-623E-440B-944E-1F127E1100C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1ED3510-623E-440B-944E-1F127E1100C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1ED3510-623E-440B-944E-1F127E1100C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1ED3510-623E-440B-944E-1F127E1100C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{396228D5-F1DF-428C-AABF-50D2A9FD6338}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{396228D5-F1DF-428C-AABF-50D2A9FD6338}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{396228D5-F1DF-428C-AABF-50D2A9FD6338}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{396228D5-F1DF-428C-AABF-50D2A9FD6338}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7BEC2B5-D27D-43D4-A5BD-3F0EE5517879}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7BEC2B5-D27D-43D4-A5BD-3F0EE5517879}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7BEC2B5-D27D-43D4-A5BD-3F0EE5517879}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7BEC2B5-D27D-43D4-A5BD-3F0EE5517879}.Release|Any CPU.Build.0 = Release|Any CPU
+		{740E9C48-80FC-4468-88AF-2C86A906B646}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{740E9C48-80FC-4468-88AF-2C86A906B646}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{740E9C48-80FC-4468-88AF-2C86A906B646}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{740E9C48-80FC-4468-88AF-2C86A906B646}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3778B53B-71FD-421B-8A31-CFBFC8CB0906}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3778B53B-71FD-421B-8A31-CFBFC8CB0906}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3778B53B-71FD-421B-8A31-CFBFC8CB0906}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3778B53B-71FD-421B-8A31-CFBFC8CB0906}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07821124-4376-46BD-8C31-A79975360B75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07821124-4376-46BD-8C31-A79975360B75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07821124-4376-46BD-8C31-A79975360B75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07821124-4376-46BD-8C31-A79975360B75}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DCFE302D-A715-4C08-AE2F-93C417BD8BAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCFE302D-A715-4C08-AE2F-93C417BD8BAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCFE302D-A715-4C08-AE2F-93C417BD8BAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCFE302D-A715-4C08-AE2F-93C417BD8BAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6BF4B245-C863-44AD-95DA-6255F17D8A9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BF4B245-C863-44AD-95DA-6255F17D8A9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BF4B245-C863-44AD-95DA-6255F17D8A9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BF4B245-C863-44AD-95DA-6255F17D8A9C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{289FC50D-AF01-41DC-9A0E-87FA3F079E26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{289FC50D-AF01-41DC-9A0E-87FA3F079E26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{289FC50D-AF01-41DC-9A0E-87FA3F079E26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{289FC50D-AF01-41DC-9A0E-87FA3F079E26}.Release|Any CPU.Build.0 = Release|Any CPU
+		{782A2080-473B-49EF-BC78-7269868951E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{782A2080-473B-49EF-BC78-7269868951E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{782A2080-473B-49EF-BC78-7269868951E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{782A2080-473B-49EF-BC78-7269868951E3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F13B280B-C2E4-4719-8121-248D876DDD12}
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D1ED3510-623E-440B-944E-1F127E1100C6} = {7A447E49-C089-4073-9D83-5A7A58C84882}
+		{396228D5-F1DF-428C-AABF-50D2A9FD6338} = {7A447E49-C089-4073-9D83-5A7A58C84882}
+		{F7BEC2B5-D27D-43D4-A5BD-3F0EE5517879} = {396F7C1B-8FC5-4A90-9A45-5CC31079B2FD}
+		{740E9C48-80FC-4468-88AF-2C86A906B646} = {396F7C1B-8FC5-4A90-9A45-5CC31079B2FD}
+		{3778B53B-71FD-421B-8A31-CFBFC8CB0906} = {396F7C1B-8FC5-4A90-9A45-5CC31079B2FD}
+		{07821124-4376-46BD-8C31-A79975360B75} = {396F7C1B-8FC5-4A90-9A45-5CC31079B2FD}
+		{DCFE302D-A715-4C08-AE2F-93C417BD8BAE} = {6B76163E-BE65-439B-B031-9EAE13EE11DA}
+		{6BF4B245-C863-44AD-95DA-6255F17D8A9C} = {6B76163E-BE65-439B-B031-9EAE13EE11DA}
+		{289FC50D-AF01-41DC-9A0E-87FA3F079E26} = {6B76163E-BE65-439B-B031-9EAE13EE11DA}
+		{782A2080-473B-49EF-BC78-7269868951E3} = {6B76163E-BE65-439B-B031-9EAE13EE11DA}
+	EndGlobalSection
+EndGlobal

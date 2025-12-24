@@ -1,0 +1,4 @@
+name: dataverse-azuresql
+main: infra/RR.DataverseAzureSql.Infra
+runtime: dotnet
+description: One-way synchronization between Microsoft Dataverse and Azure SQL

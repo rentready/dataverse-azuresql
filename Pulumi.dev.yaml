@@ -1,0 +1,14 @@
+config:
+  azure-native:location: EastUS
+  dataverse-azuresql:DbDTU: S1
+  dataverse-azuresql:real-time-sync-max-message-retry-count: 10
+  dataverse-azuresql:one-time-sync-max-activity-retry-count: 3
+  dataverse-azuresql:one-time-sync-activity-retry-interval-in-sec: 30
+  dataverse-azuresql:one-time-sync-batch-size: 2500
+  dataverse-azuresql:one-time-sync-trigger-time: "0 0 * * * *"
+  dataverse-azuresql:azuresql-full-sync-batch-size: 2500
+  dataverse-azuresql:azuresql-full-sync-timeout-in-sec: 500
+  dataverse-azuresql:azuresql-changes-sync-insert-batch-size: 1000
+  dataverse-azuresql:azuresql-changes-sync-update-batch-size: 250
+  dataverse-azuresql:azuresql-changes-sync-delete-batch-size: 1000
+  dataverse-azuresql:servicebus-scheduled-enqueue-time-in-ms: 6000

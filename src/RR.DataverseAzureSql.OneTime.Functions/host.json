@@ -1,0 +1,23 @@
+﻿{
+    "version": "2.0",
+    "functionTimeout": "00:10:00",
+  "logging": {
+    "applicationInsights": {
+      "samplingSettings": {
+        "isEnabled": true,
+        "excludedTypes": "Request;Exception;Trace"
+      },
+      "enableLiveMetricsFilters": true
+    },
+    "console": {
+      "isEnabled": true,
+      "DisableColors": false
+    },
+    "logLevel": {
+      "default": "Information",
+      "Function": "Warning",
+      "Microsoft": "Error",
+      "Azure.Messaging.ServiceBus": "Warning"
+    }
+  }
+}
